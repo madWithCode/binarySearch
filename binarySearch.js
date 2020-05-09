@@ -15,9 +15,7 @@ const binarySearch = (arr) => {
     	return -1;
     }
   } 
-  if(start > end){
-  	return -1;
-  }
+
   if(arr[mid] === num){
   	return mid;
   }else if (arr[mid] > num){
